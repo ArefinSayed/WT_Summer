@@ -1,10 +1,10 @@
 <html>
     <head>
-        <title>Home</title>
+        <title>Registration</title>
 </head>
 <body>
 <h1>Registration Form<hr></h1>
-<form >
+<form action="../control/process.php" method="Post">
 <table>
     <tr>
         <td>
@@ -19,7 +19,7 @@
             Last Name:
         </td>
         <td>
-            <input type="text" name="fname">
+            <input type="text" name="lname">
         </td>
     </tr>
     <tr>
@@ -27,7 +27,7 @@
             Age:
         </td>
         <td>
-            <input type="text" name="fname">
+            <input type="text" name="age">
         </td>
     </tr>
     <tr>
@@ -45,9 +45,9 @@
             Preferred language
         </td>
         <td>
-        <input type="checkbox" name="preferred language" value="Java">Java
-        <input type="checkbox" name="preferred language" value="PHP">PHP
-        <input type="checkbox" name="preferred language" value="C++">C++
+        <input type="checkbox" name="1stlanguage" value="Java">Java
+        <input type="checkbox" name="2ndlanguage" value="PHP">PHP
+        <input type="checkbox" name="3rdlanguage" value="C++">C++
         </td>
     </tr>
     <tr>
@@ -55,7 +55,7 @@
             E-mail:
         </td>
         <td>
-            <input type="text" name="fname">
+            <input type="text" name="email">
         </td>
     </tr>
     <tr>
@@ -63,7 +63,7 @@
             Password:
         </td>
         <td>
-            <input type="text" name="fname">
+            <input type="text" name="password">
         </td>
     </tr>
     <tr>
